@@ -12,13 +12,14 @@ The study analyzes a cohort of 98 severe COVID-19 patients admitted to Chilean I
 
 * **Type**: SQLite Database.
   
-**Description**: Contains the raw, anonymized clinical data and laboratory measurements (58 routine analytes) recorded at the time of ICU admission.
+* **Description**: Contains the raw, anonymized clinical data and laboratory measurements (58 routine analytes) recorded at the time of ICU admission.
 
 * **Usage**: Primary data source for the analysis script.
 
 ### 2. `Data_analysis_article_COVID_2026.ipynb`
 
 * **Type**: Jupyter Notebook (Python 3).
+  
 * **Description**: This is the master analytical pipeline. It reproduces all statistical procedures described in the manuscript. Key steps include:
 
 
@@ -50,8 +51,8 @@ The study analyzes a cohort of 98 severe COVID-19 patients admitted to Chilean I
 ### 4. `survivors.xlsx` & `non-survivors.xlsx`
 
 * **Type**: Excel Spreadsheets.
-* 
-**Description**: Pre-processed subsets of the original data, partitioned by clinical outcome (Survivors vs. Non-survivors).
+ 
+* **Description**: Pre-processed subsets of the original data, partitioned by clinical outcome (Survivors vs. Non-survivors).
 
 
 * **Usage**: Facilitates direct inspection of the distributional characteristics used to calculate the SDI.
@@ -60,7 +61,7 @@ The study analyzes a cohort of 98 severe COVID-19 patients admitted to Chilean I
 
 The SDI methodology identified **9 critical biomarkers** that outperformed conventional statistical filters by showing  distributional divergence:
 
-* 
+
 **LDH** (35.7%), **Troponin I** (33.3%), **Creatinine** (33.0%), **** (28.0%), **** (28.0%), **Immature Granulocytes** (26.3%), **AST** (25.9%), **Total CK** (25.9%), and **Platelets** (25.0%).
 
 
