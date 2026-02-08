@@ -1,7 +1,3 @@
-Claro, basándome en los archivos y la descripción que proporcionaste, aquí tienes el contenido para tu archivo `README.md` en inglés técnico:
-
----
-
 # COVID-19 ICU Mortality Prediction: SDI Biomarker Analysis
 
 This repository contains the dataset and the computational workflow used to develop and validate the **Shape Descriptor Index (SDI)**, a novel statistical methodology for predicting ICU mortality in Chilean COVID-19 patients based on admission biomarkers.
