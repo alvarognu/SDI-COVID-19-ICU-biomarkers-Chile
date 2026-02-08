@@ -11,9 +11,8 @@ The study analyzes a cohort of 98 severe COVID-19 patients admitted to Chilean I
 ### 1. `COVID_First_measurements_records.sqlite`
 
 * **Type**: SQLite Database.
-* 
+  
 **Description**: Contains the raw, anonymized clinical data and laboratory measurements (58 routine analytes) recorded at the time of ICU admission.
-
 
 * **Usage**: Primary data source for the analysis script.
 
